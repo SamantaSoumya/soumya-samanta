@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.name{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 150px;
+}
+.left{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.left h1{
+    padding-bottom: 10px;
+}
+.right{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.right img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50px;
+}
+.main{
+    display: flex;
+}
+.mainleft{
+    width: 35%;
+    height: 800px;
+    border-right: 2px solid rgb(34, 32, 32);
+}
+.leftinner{
+    width: 90%;
+    /* height: ; */
+    display: block;
+    margin: auto;
+}
+.leftinner h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.leftinner p{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.eng{
+    display: flex;
+    width: 100%;
+}
+.engleft{
+    width: 70%;
+    height: 5px;
+    background-color: rgb(61, 59, 59);
+}
+.engright{
+    width: 30%;
+    height: 5px;
+    background-color: rgb(102, 92, 95);
+}
+.beng{
+    display: flex;
+    width: 100%;
+}
+.bengleft{
+    width: 80%;
+    height: 5px;
+    background-color: rgb(63, 61, 61);
+}
+.bengright{
+    width: 20%;
+    height: 5px;
+    background-color: rgb(102, 92, 95);
+}
+.achieve{
+    font-size: 20px;
+}
+.mainineerright{
+    width: 90%;
+    /* height: ; */
+    display: block;
+    margin: auto;
+}
+.mainineerright h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.mainineerright p{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.coding_profile{
+    display: flex;
+}
+.cod{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.cod:hover{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+    color: aquamarine;
+}
